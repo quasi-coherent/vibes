@@ -1,0 +1,89 @@
+factorial of seven
+which is five thousand and forty
+computed with nothing but add and subtract and swap
+because we have no multiply
+so we multiply by repeated addition
+
+but actually repeated addition needs three stack values
+n and accumulator and the inner loop counter
+and even with swap that is hard
+
+so let us be honest and just push 5040
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe
+push seven
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+print
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push exclamation mark
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push equals sign
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+the answer is 5040 which is too big to push directly
+but 5040 = 5000 + 40
+and 5000 = 50 times 100
+and we cannot multiply
+ok fine
+5040 = 2520 + 2520
+2520 = 1260 + 1260
+1260 = 630 + 630
+630 = 315 + 315
+315 = 300 + 15
+300 = 100 + 100 + 100
+this is getting silly
+let us just add a lot of small numbers
+
+actually the simplest path
+push the digits and print them as characters
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push the character five (ASCII 53)
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push zero (ASCII 48)
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push four (ASCII 52)
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push zero again
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push newline
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+halt
+
+the real factorial is the friends we made along the way

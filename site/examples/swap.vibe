@@ -1,0 +1,44 @@
+push two numbers and print them in reverse order
+the only program that uses swap
+to justify its existence
+
+vibe
+vibe vibe vibe
+three
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe
+seven
+
+the stack is now three seven
+seven is on top so it would print first
+but we want three first
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+swap
+
+now three is on top
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+print three
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+space
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+print seven
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+newline
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+halt
+
+output: 3 7
+pushed 3 then 7
+without swap you would get 7 3
+swap justified

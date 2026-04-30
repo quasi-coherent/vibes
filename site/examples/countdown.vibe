@@ -1,0 +1,49 @@
+we are counting down from ten
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push ten
+
+here is the loop at line two
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+dup
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+print it
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push a space
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe
+vibe
+push one
+
+vibe vibe vibe vibe vibe vibe vibe vibe
+subtract
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+dup to test
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+jnz believe
+
+vibe vibe
+back to line two
+
+we fell through so the countdown is over
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+print the zero
+
+vibe
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+push newline
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+emit
+
+vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe vibe
+halt liftoff
