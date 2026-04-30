@@ -454,11 +454,14 @@ halt</textarea>
     <a href="vibe.c">vibe.c</a> &mdash;
     <code>cc -std=c99 -o vibe vibe.c && ./vibe program.vibe</code>
   </p>
+  <p>
+    <a href="https://github.com/wevibefyi/vibes">github</a>
+  </p>
 </div>
 
 <div class="footer">
   <p>
-    <span id="audio-toggle" style="cursor:pointer;border-bottom:1px solid rgba(255,110,199,0.3);" onclick="toggleAudio()">sound on</span>
+    <span id="audio-toggle" style="cursor:pointer;border-bottom:1px solid rgba(255,110,199,0.3);" onclick="toggleAudio()">turn sound on</span>
   </p>
   <p style="margin-top:1rem">just stop thinking</p>
 </div>
@@ -610,7 +613,7 @@ function toggleAudio() {
 
     // master chain: everything through reverb and lowpass
     const master = ctx.createGain();
-    master.gain.value = 0.06;
+    master.gain.value = 0.03;
 
     const masterFilter = ctx.createBiquadFilter();
     masterFilter.type = 'lowpass';
@@ -818,12 +821,12 @@ function toggleAudio() {
     sweepLfo.start();
 
     audioPlaying = true;
-    el.textContent = 'sound off';
+    el.textContent = 'turn sound off';
   } else {
     audioCtx.close();
     audioCtx = null;
     audioPlaying = false;
-    el.textContent = 'sound on';
+    el.textContent = 'turn sound on';
   }
 }
 </script>
