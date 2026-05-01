@@ -9,54 +9,22 @@
     inputs:
     inputs.flake-parts.lib.mkFlake { inherit inputs; } {
       systems = import inputs.systems;
+      imports = [
+        ./vibe.nix
+        inputs.flake-parts.flakeModules.easyOverlay
+      ];
 
       perSystem =
-        { self', pkgs, ... }:
-        let
-          vibe = pkgs.stdenv.mkDerivation {
-            pname = "vibe";
-            # version = "vibe";
-            version = "0.0.0";
-            src = pkgs.lib.cleanSource ./.;
-
-            nativeBuildInputs = with pkgs; [
-              gcc
-              coreutils
-            ];
-
-            buildPhase = "gcc -o vibe vibe.c";
-            installPhase = ''
-              mkdir -p $out/bin
-              cp vibe $out/bin
-            '';
-          };
-        in
+        { pkgs, ... }:
         {
-          packages = {
-            inherit vibe;
-            default = vibe;
+          _module.args = {
+            vibes = pkgs;
+            vibelib = pkgs.lib;
           };
 
-          devShells = {
-            # vibe
-            default = pkgs.mkShell {
-              packages = with pkgs; [
-                gcc
-                gnumake
-                gdb
-                clang-tools
-                nixd
-              ];
-            };
-
-            vibe =
-              let
-                vibe = self'.packages.vibe;
-              in
-              pkgs.mkShell {
-                packages = [ vibe ];
-                shellHook = "${pkgs.lib.getBin vibe}/bin/vibe";
-              };
+          overlayAttrs = {
+            vibes = pkgs;
+            vibelib = pkgs.lib;
           };
         };
     };
